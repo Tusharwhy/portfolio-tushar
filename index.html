@@ -5,6 +5,33 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tushar Rajora</title>
+
+    <!-- Preload GLTF and binary assets -->
+    <link
+      rel="preload"
+      href="/planet/scene.gltf"
+      as="fetch"
+      type="model/gltf+json"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="/planet/scenes.bin"
+      as="fetch"
+      crossorigin="anonymous"
+    />
+
+    <!-- Preload texture files if any -->
+    <link
+      rel="preload"
+      href="/planet/textures/Clouds_baseColor.png"
+      as="image"
+    />
+    <link
+      rel="preload"
+      href="/planet/textures/Planet_baseColor.png"
+      as="image"
+    />
   </head>
   <body>
     <div id="root"></div>
