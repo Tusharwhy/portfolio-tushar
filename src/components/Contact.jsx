@@ -107,7 +107,7 @@ const Contact = () => {
           </a>
         </div>
 
-        {/* <form
+        <form
           ref={formRef}
           style={{ visibility: "hidden" }}
           // onSubmit={handleSubmit}
@@ -156,8 +156,8 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send"}
           </button>
-        </form> */}
-        <div style={{ height: "400px" }}></div>
+        </form>
+        {/* <div style={{ height: "400px" }}></div> */}
       </motion.div>
 
       <motion.div
